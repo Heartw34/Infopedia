@@ -1,15 +1,9 @@
-const Anim = () => (
-    
+const Anim = () => (  
     <div style={{ fontFamily: 'Male2, serif' }}>
     <div className="content-container">
     <div className="info-card" style={{padding: '30px', fontSize: '20px'}}>
     <div className="about-card">
-    {/* <div style={{
-      backgroundImage: 'linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(/)',
-      backgroundSize: 'cover',
-      backgroundAttachment: 'fixed',
-      minHeight: '100vh'
-    }}></div> */}
+        
       <h1>Животные</h1>
             <h3>
               Интересные животные:

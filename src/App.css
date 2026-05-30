@@ -451,6 +451,49 @@ body {
   }
 }
 
+.TxtY2 {
+  font-family: var(--font-heater);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  color: rgb(163, 212, 218);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+
+.TxtY2:hover {
+  animation: glowAndMove 2s ease-in-out infinite;
+}
+
+@keyframes glowAndMove {
+  0% {
+    transform: rotate(0deg) scale(1);
+    text-shadow: 0 0 40px rgb(255, 254, 172), 
+                 0 0 80px rgb(0, 0, 0);
+  }
+   20% {
+    transform: rotate(0deg) scale(1.1);
+    text-shadow: 0 0 40px rgba(228, 143, 218, 0.994), 
+               0 0 80px rgb(0, 0, 0);
+  }
+  50% {
+    transform: rotate(0deg) scale(1.2);
+    text-shadow: 0 0 40px rgb(203, 218, 255), 
+                 0 0 80px rgb(0, 0, 0);
+  }
+
+   70% {
+    transform: rotate(0deg) scale(1.4);
+    text-shadow: 0 0 40px rgb(255, 165, 232), 
+                 0 0 80px rgb(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+    text-shadow: 0 0 40px rgb(158, 173, 255), 
+                0 0 80px rgb(0, 0, 0);
+  }
+}
+
+
 .about .about-card p {
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   line-height: 1.8;
@@ -635,3 +678,21 @@ body {
   }
          
 }
+
+
+
+/* .img{
+  animation: img 0.3s ease-in-out;
+}
+@keyframes img
+{
+  0%{
+    transform: scale(1.3);
+  }
+  50%{
+    transform: scale(1.3);
+  }
+  100%{
+    transform: scale(1.3);
+  }
+} */
