@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Тест аудио</title>
+</head>
+<body>
+    <h1 style="color: white; text-align: center;">Проверка аудио</h1>
+    <audio controls style="display: block; margin: 20px auto; width: 80%;">
+        <source src="/music/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+    <script>
+        console.log('Тест запущен');
+        const audio = new Audio('/music/default.mp3');
+        audio.loop = true;
+        
+        // Пытаемся воспроизвести сразу
+        audio.play().then(() => {
+            console.log('✅ Успех! Музыка заиграла.');
+        }).catch(err => {
+            console.error('❌ Ошибка воспроизведения:', err);
+        });
+    </script>
+</body>
+</html>
