@@ -26,5 +26,3 @@ const Proterozoic = () => {
 };
 
 export default Proterozoic;
-// 3.  
-// 

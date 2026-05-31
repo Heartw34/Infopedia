@@ -1,9 +1,15 @@
+import Quiz from '../../components/Quiz';
 const Artiodactyls = () => {
   return (
      <div style={{ fontFamily: 'Male2, serif' }}>
     <div className="content-container animate-in">
       <div className="content-card">
         <h1>Парнокопытные:</h1>
+        <img 
+          src="/public/images/Artiod.png" 
+          alt="Животные" 
+          style={{ width: '100%', borderRadius: '10px', marginBottom: '20px' }}
+        />
         <h2>
           В лесных районах встречаются:
         </h2>
@@ -27,6 +33,25 @@ const Artiodactyls = () => {
             копытных выросла на 79 % благодаря 
             биотехническим мероприятиям на охотничьих угодьях.
           </p>
+          <p>
+            А теперь небольшой тест на внимательность:
+          </p>
+          <Quiz 
+          question="Какой из этих видов не относится к парнокопытным?"
+          options={['кабан','косуля', 'лисица', 'благородный олень']}
+          correctIndex={2}
+        />
+
+        <Quiz 
+          question="Найдите на картинке животное, не относящимся к парнокопытным"
+          options={['сайгак', 
+                    'байбак', 
+                    'европейская косуля', 
+                    'дикий кабан', 
+                    'благородный олень', 
+                    'пятнистый олень']}
+          correctIndex={1}
+        />
       </div>
       </div>
     </div>

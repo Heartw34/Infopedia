@@ -23,23 +23,4 @@ const TopNav = () => {
     </>
   );
 };
-
-// const audioRef = useRef(null);
-
-//   const playSound = () => {
-//     if (audioRef.current) {
-//       audioRef.current.currentTime = 0;
-//       audioRef.current.play().catch(() => {});
-//     }
-//   };
-
-//   return (
-//     <>
-//       <audio ref={audioRef} src="/sounds/click.mp3" />
-//       <button onClick={playSound} className="nav-btn">
-//         Кнопка со звуком
-//       </button>
-//     </>
-//   );
-
 export default TopNav;

@@ -57,16 +57,6 @@ const Biol = () => (
       </div>
       <a href="https://multiurok.ru/blog/20-interesnykh-faktov-v-biologii.html?ysclid=mppkm10nxh887019404" 
             target="_blank" className="btn-read">Больше:</a>
-{/* 
-      <div>
-        <h3>Удивительные факты:</h3>
-        <iframe width="480" height="270" 
-     src="https://yandex.ru/video/preview/6728697902987839957" 
-      allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
-     qojWo8apcdO1zgos="embed-iframe" frameborder="0" allowfullscreen
-     style={{ top: 30, left: 20, width: '100%', height: '100%', borderRadius: '50px' }}>
-      </iframe>
-      </div> */}
       
      <div>
         <img 

@@ -34,6 +34,8 @@ import Anim from './pages/Other/Anim'
 import Biol from './pages/Other/Biol'
 import Hist from './pages/Other/Hist'
 
+import Quiz from './components/Quiz';
+
 
 
 import './App.css';
@@ -79,6 +81,7 @@ function MainLayout() {
         <Route path="/other/anim" element={<Anim />}/>
         <Route path="/other/biol" element={<Biol />}/>
         <Route path="/other/hist" element={<Hist />}/>
+        <Route path="/quiz" element={<Quiz />}/>
       </Routes>
         <Music />
     </div>

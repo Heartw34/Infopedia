@@ -16,7 +16,6 @@ const Category = () => {
           <iframe 
             src="https://dzen.ru/video/watch/6461f8dccef3ab44179d80d4?ysclid=mpph3h8ii4883393724" // ← Замените VIDEO_ID
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '10px' }}
